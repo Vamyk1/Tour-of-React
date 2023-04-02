@@ -1,0 +1,41 @@
+.messages h2 {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+/* body {
+  margin: 2em;
+} */
+
+/* body, */
+.messages input[text],
+.messages button {
+  color: crimson;
+  font-family: Cambria, Georgia;
+}
+
+.messages button.clear {
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.messages button:hover {
+  background-color: #cfd8dc;
+}
+
+.messages button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
+
+.messages button.clear {
+  color: #888;
+  margin-bottom: 12px;
+}
